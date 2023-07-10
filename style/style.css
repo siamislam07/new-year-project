@@ -40,8 +40,13 @@ header{
     height: 64px;
     border: none;
     margin-top: 10px ;
+    transition: box-shadow 0.5s;
     
 }
+.header-btn:hover{
+    box-shadow: 3px 3px 3px gray;
+}
+
 .header-container{
     text-align: right;
     margin-top: 150px;
@@ -58,11 +63,18 @@ header{
     justify-content: space-around;
     margin-left: 50px;
     margin-right: 40px;
+    border-radius: 50%;
+    transition: box-shadow 0.5s;
 }
+.failure-img:hover{
+    box-shadow: 1px 2px 3px 3px  gray;
+}
+
 .failure-content{
     width: 400px;
     height: auto;
     margin-left: 100px;
+    margin-top: 60px;
 }
 .failure-h3{
     color: #151414;
@@ -88,4 +100,64 @@ ul > li{
 ul li:before{
     content: '✓';
     color: #16D887;
+}
+
+/* plan section */
+.plan-h3{
+    color: #151414;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.plans-section{
+    display: flex;
+    margin-top: 50px;
+
+}
+.plan-item{
+    text-align: center;
+    margin: auto;
+}
+.plan-h4{
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+}
+.plan-h5{
+    color: #737272;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* mindset style */
+.mindset-text {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.mindset {
+    margin: 150px 100px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    width: 84%;
+    height: 301px;
+    border-radius: 8px;
+}
+
+.btn-call {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #f5e8e3;
+    width: 160px;
+    height: 64px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 53px;
 }
